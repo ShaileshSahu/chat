@@ -1,0 +1,27 @@
+{
+  "name": "chat-gpt-cmd",
+  "version": "1.0.1",
+  "description": "Using the CHAT GPT api and providing the interactive cli for utilizing it.",
+  "main": "cli.js",
+  "type": "module",
+  "bin": {
+    "chat": "cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "keywords": [
+    "AIchatbot", "npmchat", "Chatbotdevelopment", "ChatbotNPM", "NodeJSchatbot",
+    "npmupdate","ChatbotNpmPackage","AIChatbotNpm"
+  ],
+  "author": "Shailesh Sahu",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^7.0.2",
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.5.2",
+    "got": "^12.6.0",
+    "prompts": "^2.4.2"
+  }
+}
